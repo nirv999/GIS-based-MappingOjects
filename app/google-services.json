@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "373089564387",
+    "firebase_url": "https://gadir-ns.firebaseio.com",
+    "project_id": "gadir-ns",
+    "storage_bucket": "gadir-ns.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373089564387:android:c2c8a5f0a18b32a9",
+        "android_client_info": {
+          "package_name": "com.example.a7lab204.gadir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373089564387-5h6u7c5jvhqfr5gkj9l352efbsn1tgq8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a7lab204.gadir",
+            "certificate_hash": "548127ce0f479ebae6170eec5d3c83af845a1434"
+          }
+        },
+        {
+          "client_id": "373089564387-9rs913jgo497i7lsbs22r34s5f1c2o75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4GdnyhbpXW8j39EAVjsFSaANm4Y4JuyI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373089564387-9rs913jgo497i7lsbs22r34s5f1c2o75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

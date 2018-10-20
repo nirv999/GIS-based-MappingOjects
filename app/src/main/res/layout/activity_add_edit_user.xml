@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a7lab204.gadir.MainActivity">
+
+    <TextView
+        android:text="פרטי המשתמש"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/switch1"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:text="שם משתמש"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignBaseline="@+id/etUsername"
+        android:layout_alignBottom="@+id/etUsername"
+        android:layout_alignParentStart="true" />
+
+    <Switch
+        android:text="יכולת עריכה"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:id="@+id/switch1"
+        android:layout_below="@+id/etPassword"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etPassword"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/etUsername" />
+
+    <TextView
+        android:text="סיסמא"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView6" />
+
+    <Button
+        android:text="שמור"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:id="@+id/btnSave"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="מחק משתמש"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/btnDeleteUser"
+        android:layout_below="@+id/switch1"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
