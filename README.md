@@ -1,11 +1,10 @@
-#### The app organize and mapping objects (in this project - light poles and hubs) on top of GIS platform.
-
+#### The app organize and mapping objects (in this project - light poles and hubs) on top of GIS platform.<br/>
 In this app the workers have different authorization hierarchy, which for example: <br/>
 "viewer" can only watch the data about chosen point, "editor" can also modify the data or change the point location
 and "manager" can do all plus create users, change their pw's, hierarchy level, etc… <br/>
 there is many other functionalities in this app but i wont exapnding on them over here.
 
-for your convenience i posted couple of images to illustrate about some of the services the app can offer.
+for your convenience i posted couple of images to illustrate about some of the services the app can offer. <br/>
 notice: the app was made for israeli industrial usage, hence its written in hebrew.
 
 
